@@ -136,7 +136,7 @@ public class Principal {
         }
     }
 
-    public static void main(String[] args) {
+    public static void menu() {
         Banco banco = new Banco();
         Scanner scanner = new Scanner(System.in);
         int opcion = 0;
@@ -176,5 +176,10 @@ public class Principal {
         } while (opcion != 6);
 
         scanner.close();
+
     }
+
+    public static void main(String[] args) {
+        menu();
+        }
 }
