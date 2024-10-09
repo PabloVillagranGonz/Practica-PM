@@ -9,9 +9,17 @@ public abstract class CuentaBancaria {
         this.saldo = saldo;
     }
 
-    public Persona getTitular() { return titular; }
-    public String getIban() { return iban; }
-    public double getSaldo() { return saldo; }
+    public Persona getTitular() {
+        return titular;
+    }
+
+    public String getIban() {
+        return iban;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
 
     public void ingresar(double cantidad) {
         saldo += cantidad;

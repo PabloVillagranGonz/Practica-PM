@@ -9,9 +9,17 @@ public class Persona {
         this.dni = dni;
     }
 
-    public String getNombre() { return nombre; }
-    public String getApellidos() { return apellidos; }
-    public String getDni() { return dni; }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public String getDni() {
+        return dni;
+    }
 
     @Override
     public String toString() {
